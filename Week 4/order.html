@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Petra Bella</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+      </head>
+
+      <body>
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="pizza.html">Pizza</a>
+          <a href="burger.html">Burgers</a>
+          <a href="dessert.html">Desserts</a>
+          <a href="order.html">Place an Order</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div>
+            <table style="color:aliceblue;">
+                <tr><th style="font-size: 40px;">Request a callback from our team</th></tr>
+
+                <tr>
+                    <td>
+                        <form action="submit-order.html" method="POST">
+                            <br>
+                            <label for="pizzas">What pizzas would you like? (Select all that apply)</label>
+                            <section class="pizzas">
+
+                                <input type="checkbox" name="pizza" id="specialita">
+                                <label for="specialita">Specialita Della Casa</label>
+
+                                <br>
+                                <input type="checkbox" name="pizza" id="breakfast">
+                                <label for="breakfast">Breakfast Pizza</label>
+
+                                <br>
+                                <input type="checkbox" name="pizza" id="salami">
+                                <label for="salami">Salami Pizza</label>
+
+                                <br>
+                                <input type="checkbox" name="pizza" id="ruccola">
+                                <label for="ruccola">Ruccola E Funghi</label>
+
+                            </section>
+
+                            <br>
+                            <label for="burgers">What burgers would you like? (Select all that apply)</label>
+                            <section class="pizzas">
+
+                                <input type="checkbox" name="burger" id="perferzione">
+                                <label for="perferzione">Burger Perferzione</label>
+
+                                <br>
+                                <input type="checkbox" name="burger" id="crispy">
+                                <label for="crispy">Crispy Chicken Fillet Burger</label>
+
+                                <br>
+                                <input type="checkbox" name="burger" id="cheesburger">
+                                <label for="cheesburger">Double Cheesburger</label>
+
+                                <br>
+                                <input type="checkbox" name="burger" id="vegan">
+                                <label for="vegan">Vegan Burger</label>
+
+                            </section>
+
+                            <br>
+                            <label for="choice">Would you like to make it a meal?<br>(This includes chips and can of coke for an extra £2)</label>
+                            <section class="choice">
+
+                                <input type="radio" name="choose" id="yes" value="Yes">
+                                <label for="yes">Yes</label>
+
+                                <br>
+                                <input type="radio" name="choose" id="no" value="No">
+                                <label for="no">No</label>
+
+                            </section>
+
+                            <br>
+                            <label for="desserts">What desserts would you like? (Select all that apply)</label>
+                            <section class="desserts">
+
+                                <input type="checkbox" name="dessert" id="fruit-cup">
+                                <label for="fruit-cup">Fruit and Yogurt Granola Cups</label>
+
+                                <br>
+                                <input type="checkbox" name="dessert" id="berry-cake">
+                                <label for="berry-cake">Yossy Arefi's Berry Stacked Shortcake</label>
+
+                                <br>
+                                <input type="checkbox" name="dessert" id="toblerone">
+                                <label for="toblerone">Amaretti, Orange and Toblerone Layered Dessert</label>
+
+                                <br>
+                                <input type="checkbox" name="dessert" id="straw-crepes">
+                                <label for="straw-crepes">Italian Strawberry Desser Crepes</label>
+
+                            </section>
+
+                            <br>
+                            <section>
+                              <label for="first-name">First name</label>
+                              <input type="text" name="first-name" id="first-name" placeholder="Your name..." required>
+                            </section>
+
+                            <section>
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Your last name..." required>
+                              </section>
+                            
+                            <br>
+                            <section>
+                              <label for="email">Your email address</label>
+                              <input type="email" name="email" id="email" placeholder="Your email address..." required>
+                            </section>
+                            
+                            <br>
+                            <section>
+                              <label for="tel">Contact Number</label>
+                              <input type="tel" name="tel" id="tel" placeholder="07*********" pattern="[0-9]{11}" required>  
+                            </section>
+                            
+                            <section>
+                                <label for="postcode">Your postcode</label>
+                                <input type="text" name="postcode" id="postcode" placeholder="Your postcode...">
+                            </section>
+                            
+                            <section>
+                                <label for="first-line">Your first line of address</label>
+                                <input type="text" name="first-line" id="first-line" placeholder="Your first line of address...">
+                            </section>
+
+                            <br>
+                            <section class="button"><input type="submit" name="submit" id="submit" value="Submit"></section>
+                          </form>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+      </body>
+</html>

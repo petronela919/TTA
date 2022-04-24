@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Petra Bella</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="pizza.html">Pizza</a>
+            <a href="burger.html">Burgers</a>
+            <a href="dessert.html">Desserts</a>
+            <a href="order.html">Place an Order</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div>
+            <table style="color: aliceblue;">
+                <tr><th style="font-size:40px;">Contact Details</th></tr>
+                
+                <tr><td><h2>0123 456 789</h2></td></tr>
+                <tr><td><b>Mon-Fri:</b> 15:00 - 23:00</td></tr>
+                <tr><td><b>Saturday:</b> 12:00 - 02:00</td></tr>
+                <tr><td><b>Sunday: Closed!</b></td></tr>
+
+            </table>
+        </div>
+
+        <div>
+            <table style="color:aliceblue;">
+                <tr><th style="font-size: 40px;">Request a callback from our team</th></tr>
+
+                <tr>
+                    <td>
+                        <form action="submit.html" method="POST">
+                            
+                            <section>
+                              <label for="first-name">First name</label>
+                              <input type="text" name="first-name" id="first-name" placeholder="Your name..." required>
+                            </section>
+
+                            <section>
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Your last name..." required>
+                              </section>
+                            
+                            <br>
+                            <section>
+                              <label for="email">Your email address</label>
+                              <input type="email" name="email" id="email" placeholder="Your email address..." required>
+                            </section>
+                            
+                            <br>
+                            <section>
+                              <label for="tel">Contact Number</label>
+                              <input type="tel" name="tel" id="tel" placeholder="07*********" pattern="[0-9]{11}" required>  
+                            </section>
+                            
+                            <section>
+                                <label for="postcode">Your postcode</label>
+                                <input type="text" name="postcode" id="postcode" placeholder="Your postcode...">
+                            </section>
+                            
+                            <br>
+                            <section class="button"><input type="submit" name="submit" id="submit" value="Submit"></section>
+                          </form>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>
