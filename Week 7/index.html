@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Bringing It All Together</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div>
+            <button type="submit" onclick="click_me()" id="page_mode">Press here for dark mode</button>
+        </div>
+
+        <div>
+            <h1>Kittens</h1>
+            <h3>by Petronela Lazar</h3>
+            <p>Newborn kittens are completely helpless and totally dependent on their mothers for nourishment, warmth and elimination. If they're orphaned, they need 24/7 care from a kind human.
+
+                They need to stay warm and eat every couple of hours around the clock. They even need help pottying. From birth to about 5 weeks old, kittens rely on their mothers to stimulate their anogenital region so they can urinate and defecate.</p>
+        </div>
+
+        <div id="blogs"></div>
+
+        <div>
+            <form onsubmit="analyseForm()">
+                <section>
+                    <label for="blog_title"><h1>Title</h1></label>
+                    <input type="text" name="blog_title" id="blog_title" placeholder="Blog title..." required>
+                  </section><br><br>
+    
+                <section>
+                    <label for="author"><h3>Author name</h3></label>
+                    <input type="text" name="author" id="author" placeholder="Author name..." required>
+                </section><br><br>
+    
+                <section>
+                    <label for="blog_text">Blog Body</label><br>
+                    <textarea rows="4" cols="50" autofocus name="blog_text" id="blog_text" placeholder="Type in your blog..." required></textarea>
+                </section>    
+                  
+                <br>
+                <br>
+                <section class="button"><input type="submit" name="submit" id="submit" value="Submit"></section>
+            </form>
+        </div>
+
+    </body>
+</html>
